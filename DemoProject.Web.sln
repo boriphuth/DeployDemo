@@ -3,6 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject.Web", "DemoProject.Web\DemoProject.Web.csproj", "{225DA289-D88E-4D03-BEED-B747518ED9DD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9D783E10-1038-4190-A1C7-F01DB2600583}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".octopack", ".octopack", "{A0223F78-C670-4E42-A101-67F7C809AC90}"
+	ProjectSection(SolutionItems) = preProject
+		.octopack\NuGet.exe = .octopack\NuGet.exe
+		.octopack\OctoPack.targets = .octopack\OctoPack.targets
+		.octopack\OctoPack.Tasks.dll = .octopack\OctoPack.Tasks.dll
+		.octopack\OctoPack.Tasks.pdb = .octopack\OctoPack.Tasks.pdb
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
