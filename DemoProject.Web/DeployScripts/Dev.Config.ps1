@@ -12,9 +12,9 @@
         Name = "DemoSite";
         SiteRoot = "c:\tmp";
         AppPoolName = "DemoSiteAppPool";
-        Port = 88
+        Port = 87
         Bindings = @(
-            @{Port= 88; HostName= "*"}, 
+            @{Port= 87; HostName= "*"}, 
             @{Port= 89; HostName= "DemoApp"}
         );
         Application = @{
